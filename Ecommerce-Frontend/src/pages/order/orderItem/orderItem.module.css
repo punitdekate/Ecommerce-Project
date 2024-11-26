@@ -1,0 +1,88 @@
+
+.orderItemContainerLink{
+    width: 100%;
+    max-height: 120px;
+    display: flex;
+    text-decoration: none;
+    color : black;
+}
+.orderItemContainer{
+    width: 100%;
+    max-height: 120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2px;
+    flex-wrap: nowrap;
+    background-color: white;
+    padding: 1rem;
+    margin: 4px;
+    font-family: sans-serif;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.orderItemContainer:hover{
+    background-color: rgb(217, 217, 244);
+}
+
+.orderItemImageContainer{
+    flex : 1;
+}
+
+.detailsContainer{
+    flex : 4;
+    display: flex;
+    flex-direction: column;
+}
+
+.orderItemImage{
+    width : 160px;
+    height: 90px;
+    object-fit: contain;
+}
+
+
+.priceContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.cardAddContainer ,.cardMinusContainer{
+    margin: 6px;
+}
+
+.addButton{
+    
+}
+
+.addImage{
+    width : 20px;
+    height : 20px;
+    object-fit: contain;
+}
+
+.cardMinusContainer{
+    border-radius: 2px;
+}
+
+.count{
+
+}
+
+.cardMinusContainer{
+    background-color: white;
+}
+
+.removeButton:hover{
+    background-color: rgb(246, 118, 118) ;
+}
+
+.removeImage{
+    width : 20px;
+    height : 20px;
+    
+}
+

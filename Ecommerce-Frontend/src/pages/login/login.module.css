@@ -1,0 +1,71 @@
+/* Main login container */
+.loginContainer {
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Login title */
+  .loginTitle {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  /* Email and password input containers */
+  .loginEmail,
+  .loginPassword {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* Label styling */
+  .loginLabel {
+    font-size: 18px;
+    margin-bottom: 8px;
+    display: block;
+    color: black;
+  }
+  
+  /* Email and password input styling */
+  .loginEmailInput,
+  .loginPasswordInput {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #868585;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+    background-color: white;
+  }
+  
+  /* Add some hover effect */
+  .loginEmailInput:hover,
+  .loginPasswordInput:hover {
+    border-color: #007BFF;
+  }
+
+  .loginButton{
+padding: 8px 18px;
+  border: none;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 8px;
+  }
+  

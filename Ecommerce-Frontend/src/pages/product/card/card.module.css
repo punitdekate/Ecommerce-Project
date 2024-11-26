@@ -1,0 +1,93 @@
+.cardContainer{
+    width: 250px;
+    max-height: 320px;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 2px;
+    background-color: white;
+    padding: 1rem;
+    margin: 4px;
+    font-family: sans-serif;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.cardImageContainer{
+    margin: auto;
+}
+
+.cardImage{
+    width : 160px;
+    height: 180px;
+}
+
+.cardTitle{
+    padding: 4px;
+}
+
+.cardPrice{
+    padding: 4px;
+}
+
+.cardButtonContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+
+.cardAddContainer{
+    border: 1px solid black;
+}
+
+.addButton{
+    
+}
+
+.addImage{
+    width : 20px;
+    height : 20px;
+    object-fit: contain;
+}
+
+.cardMinusContainer{
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+.count{
+
+}
+
+.cardMinusContainer{
+    background-color: white;
+}
+
+.removeButton:hover{
+    background-color: rgb(246, 118, 118) ;
+}
+
+.removeImage{
+    width : 20px;
+    height : 20px;
+    
+}
+
+.addToCartButton{
+    padding:7px;
+    background-color: rgb(53, 136, 251);
+    font-weight: bold;
+    border-radius: 2px;
+    border: 1px solid black;
+}
+
+.addToCartButton:hover{
+    background-color: blue;
+}
+
+@media (max-width: 768px) {
+    .cardContainer{
+        width: 230px;
+    }
+}

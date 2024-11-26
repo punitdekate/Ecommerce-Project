@@ -1,0 +1,138 @@
+.filter{
+  padding: 5px;
+  width: inherit;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  display: flex;
+  flex-direction: column;
+  position: fixed; 
+  top: 50%;           
+  left: 10px;            
+  transform: translateY(-50%);
+
+}
+.section{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.section1{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section2{
+  flex: 1;
+}
+/* Filter container */
+.filterContainer {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* Dropdown container */
+  .dropdownContainer {
+    margin-bottom: 20px;
+  }
+  
+  .dropdownLabel {
+    margin-bottom: 5px;
+    display: block;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .styledDropdown {
+    width: 70%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #0a0a0a;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    appearance: none;
+    background-image: url('data:image/svg+xml;base64,...'); /* Custom arrow */
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 10px;
+  }
+  
+  .styledDropdown:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  /* Checkbox container */
+  .checkboxContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* align-items: center; */
+  }
+
+  .checkBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .styledCheckbox {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 2px solid #007BFF;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    margin-top: 5px;
+  }
+  
+  .styledCheckbox:checked {
+    background-color: #007BFF;
+  }
+  
+  .styledCheckbox:checked::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 7px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  
+  .checkboxLabel {
+    margin-left: 10px;
+    /* margin-top: -20px; */
+    font-size: 16px;
+    color: #333;
+  }
+
+  @media (max-width: 768px) {
+
+    .filter{
+      padding: 5px;
+      width: inherit;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+      display: flex;
+      flex-direction: column; 
+      position: relative;
+      margin: 25%;
+    }
+    .section{
+      display: flex;
+      flex-direction: row;
+    }
+
+
+  }

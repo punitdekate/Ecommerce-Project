@@ -1,0 +1,41 @@
+.cartTitleContainer{
+
+}
+.orderTitle{
+    padding: 10px;
+}
+.orderTitleContainer,.orderListContainer{
+    width: 80%;
+    margin: auto;
+}
+.orderListContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.totalContainer{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 2rem;
+}
+
+.orderImage{
+    height : 20px;
+    width : 20px;
+    margin-right: 3px;
+}
+
+.emptyOrder{
+    height : 140px;
+    width : 140px;
+}
+
+@media (max-width: 768px) {
+    .orderTitleContainer,.orderListContainer{
+        width: 90%;
+    }
+}
